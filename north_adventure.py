@@ -189,7 +189,6 @@ class Enemy:
         # 元画像を2つロードランダムでどちらか選ぶ
         img_sirokuma = pg.image.load("img/sirokuma.png").convert_alpha()
         img_kame = pg.image.load("img/kame.png").convert_alpha()
-        import random
         img_right_orig = random.choice([img_sirokuma, img_kame])
 
         # 元画像の比率を計算し、ペンギンの高さを基準に新しいサイズを算出
